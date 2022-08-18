@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Home</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -43,9 +43,19 @@
             .content {
                 text-align: center;
             }
-
-            .title {
-                font-size: 84px;
+            .bg-image {
+                background-color: black;
+            }
+            .img {
+                background-color: black;
+                width: 800px;
+                margin: 0 auto;
+            }
+            h1 {
+                text-align: center;
+                color: white;
+                font-size: 2rem;
+                padding-top: 10%;
             }
 
             .links > a {
@@ -79,21 +89,8 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+            <div class="bg-image">
+                <img class="img" src="https://www.fifaultimateteam.it/wp-content/uploads/2021/07/cover-fifa-22-generica-ufficiale.jpg" alt="">
             </div>
         </div>
     </body>
