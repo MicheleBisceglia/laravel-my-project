@@ -13,13 +13,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-5 my_card-2 mt-4">
+        <a class="nav-link col-5 my_card-2 mt-4" href="{{ route('admin.cards.index') }}">
           <div class="my_container_item">
-            <h3>Fifa revivals</h3>
+            <h3>Fut revivals</h3>
             <p>Una lista di tutte le carte che hanno lasciato il segno in fifa!</p>
           </div>
-        </div>
-        <div class="col-6 offset-1 my_card-3 mt-4"></div>
+        </a>
+        <a class="col-6 offset-1 my_card-3 mt-4" href="{{ route('admin.cards.index') }}"></a>
       </div>
     </div>
   </div> 
@@ -27,7 +27,7 @@
 
 
 <style>
-  .my_card-1 {
+    .my_card-1 {
     height: 350px;
     margin-top: 30px;
     background-image: url(https://areajugones.sport.es/wp-content/uploads/2022/06/kaka-icono-moments-sbc-fifa-22.jpg);
