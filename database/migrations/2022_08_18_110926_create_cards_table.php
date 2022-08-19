@@ -17,6 +17,7 @@ class CreateCardsTable extends Migration
             $table->id();
             $table->string('name', 255);
             $table->string('ruolo', 10);
+            $table->text('img');
             $table->string('pac', 6);
             $table->string('sho', 6);
             $table->string('pas', 6);
